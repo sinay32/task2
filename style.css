@@ -1,0 +1,53 @@
+table 
+{
+   border: 1px solid grey;
+    width: 1200px;
+    text-align: center;
+    font-size: 30px;
+    align-self: center;
+    
+	
+}
+
+th 
+{
+   border: 1px solid grey;
+   background-color: #77dd77;
+}
+
+td 
+{
+   border: 1px solid grey;
+   background-color: #ccffcc;
+}
+
+.box
+{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.chooseFile
+{
+   
+   margin: 20 0 20 0;
+}
+
+.sumbit
+{
+   margin: 20 0 20 0;
+   width: 250px;
+   height: 50px;
+}
+
+.load
+{
+  border: 2px solid black;
+  align-self: center;
+  margin: 20 0 20 0;
+  padding: 0 20 0 20;
+  background-color: #77dd77;
+}
+
+
