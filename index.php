@@ -11,8 +11,8 @@ include_once("upload.php");
         </tr>
         <?php foreach ($csvArray as $item): ?>
             <tr>
-                <td><?php echo $item[0] ?></td>
-                <td><?php echo $item[1] ?></td>
+                <td><?php echo htmlspecialchars($item[0]) ?></td>
+                <td><?php echo htmlspecialchars($item[1]) ?></td>
             </tr>
         <?php endforeach ?>
         <form name="form" enctype="multipart/form-data" method="post">
@@ -23,6 +23,7 @@ include_once("upload.php");
         </form>
     </table>
 </div>
+
 
    
 
